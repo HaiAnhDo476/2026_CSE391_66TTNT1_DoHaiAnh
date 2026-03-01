@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+/* Thanh đen */
+.top-bar {
+  height: 20px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+/* Khung chính */
+.container {
+  width: 900px;          /* cố định để không bị co */
+  margin: auto;
+  padding: 40px;
+  border: 2px solid #8fd3f4;
+  background: #f9f9f9;
+}
+
+.container h2 {
+  font-size: 18px;  
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Quan trọng nhất */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Card trái */
+.card {
+  width: 260px;
+  background: white;
+  padding: 18px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.job {
+  color: #3b82f6;
+  font-size: 13px;
+}
+
+/* Phần phải */
+.text {
+  width: 520px;   /* cố định để chắc chắn nằm bên phải */
+}
+
+.text p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.bold {
+  font-weight: bold;
+}
